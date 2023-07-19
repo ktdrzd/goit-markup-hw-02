@@ -1,0 +1,65 @@
+.body {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: regular;
+    letter-spacing: 2%;
+    line-height: 24px;
+}
+
+.title {
+    background-color: #2E2F42;
+}
+
+.title-main {
+    font-family: Roboto;
+    font-size: 56px;
+    font-weight: bold;
+    letter-spacing: 2%;
+    line-height: 60px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.link-name {
+    color: #4D5AE5;
+}
+
+.h2 {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 2%;
+    text-align: center;
+}
+
+.h3 {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: medium;
+    letter-spacing: 2%;
+}
+
+.button {
+    font-size: Roboto;
+    font-size: 16px;
+    font-weight: medium;
+    line-height: 24px;
+    letter-spacing: 4%;
+}
+
+.a {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: regular;
+    line-height: 16px;
+    letter-spacing: 4%;
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: #2E2F42;
+}
+
+.footer-text {
+    color:#ffffff;
+}
