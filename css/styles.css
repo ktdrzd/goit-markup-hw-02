@@ -1,6 +1,6 @@
 :root {
     --primary-font: 'Roboto', sans-serif;
-    --primary-black-color: #434455;
+    --primary-black-color: #2e2f42;
     --primary-white-color: #ffffff;
 }
 
@@ -129,6 +129,7 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .team-item {
@@ -142,7 +143,6 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    text-transform: capitalize;
 }
 
 .team-text {
@@ -189,22 +189,4 @@ body {
 .portfolio-btn:focus {
     background-color: #404BBF;
     color: #ffffff;
-}
-
-.portfolio-h2 {
-    color: var(--navyblue, #2E2F42);
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-
-.portfolio-h2-text {
-    color: var(--slate, #434455);
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
 }
