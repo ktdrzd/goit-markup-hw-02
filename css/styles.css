@@ -191,7 +191,7 @@ body {
     color: #ffffff;
 }
 
-.portfolio-h2 {
+.port-h {
     color: var(--navyblue, #2E2F42);
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
@@ -200,7 +200,7 @@ body {
     letter-spacing: 0.02em;
 }
 
-.portfolio-h2-text {
+.port-h-text {
     color: var(--slate, #434455);
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
