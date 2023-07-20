@@ -1,3 +1,9 @@
+:root {
+    --primary-font: 'Roboto', sans-serif;
+    --primary-black-color: #434455;
+    --primary-white-color: #ffffff;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
@@ -75,9 +81,7 @@ body {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
-    border-radius: 4px;
-    background: var(--iris, #4D5AE5);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    background-color: var(--iris, #4D5AE5);
 }
 
 .header-soc-link:hover,
@@ -138,6 +142,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .team-text {
@@ -169,18 +174,6 @@ body {
 }
 
 .portfolio-btn {
-    border: 1px solid var(--cornflower, #E7E9FC);
-    background: var(--cloud, #F4F4FD);
-    color: var(--iris, #4D5AE5);
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.64px;
-}
-
-.portfolio-btn {
     background-color: #F4F4FD;
     color: #4D5AE5;
     text-align: center;
@@ -190,6 +183,12 @@ body {
     line-height: 24px;
     letter-spacing: 0.64px;
     cursor: pointer;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    background-color: #404BBF;
+    color: #ffffff;
 }
 
 .portfolio-h2 {
