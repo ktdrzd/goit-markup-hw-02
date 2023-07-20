@@ -36,7 +36,7 @@ body {
 }
 
 .header-menu-link:hover,
-.header-menu-link:active {
+.header-menu-link:focus {
     color: #404BBF;
 }
 
@@ -80,14 +80,18 @@ body {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
+.header-address:hover,
+.header-address:focus {
+    color:#404BBF;
+}
+
 .hero-btn:hover,
-.hero.btn:active {
+.hero.btn:focus {
     background-color: #404BBF;
 }
 
-.solutions-subtitles {
+.solutions-subtitle {
     color: var(--navyblue, #2E2F42);
-    text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 500;
@@ -102,8 +106,38 @@ body {
     letter-spacing: 0.02em;
 }
 
+.tasks-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
 .team {
     background: var(--cloud, #F4F4FD);
+}
+
+.team-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.team-item-title {
+    background-color: #ffffff;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.team-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .footer {
