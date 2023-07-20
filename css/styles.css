@@ -1,9 +1,24 @@
 .body {
-    font-family: Roboto;
+    color: #434455;
+    background-color: #ffffff;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: regular;
     letter-spacing: 2%;
     line-height: 24px;
+}
+
+.logo {
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.logo-name {
+    color: #2e2f42;
 }
 
 .title {
@@ -11,7 +26,7 @@
 }
 
 .title-main {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 56px;
     font-weight: bold;
     letter-spacing: 2%;
@@ -20,12 +35,8 @@
     text-align: center;
 }
 
-.link-name {
-    color: #4D5AE5;
-}
-
 .h2 {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 36px;
     font-weight: bold;
     letter-spacing: 2%;
@@ -33,14 +44,14 @@
 }
 
 .h3 {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 20px;
     font-weight: medium;
     letter-spacing: 2%;
 }
 
 .button {
-    font-size: Roboto;
+    font-size: Roboto, sans-serif;
     font-size: 16px;
     font-weight: medium;
     line-height: 24px;
@@ -48,12 +59,13 @@
 }
 
 .a {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 12px;
     font-weight: regular;
     line-height: 16px;
     letter-spacing: 4%;
     text-decoration: underline;
+    color: #4d5ae5;
 }
 
 .footer {
