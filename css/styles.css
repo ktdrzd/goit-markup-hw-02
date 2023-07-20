@@ -190,3 +190,21 @@ body {
     background-color: #404BBF;
     color: #ffffff;
 }
+
+.portfolio-h2 {
+    color: var(--navyblue, #2E2F42);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.portfolio-h2-text {
+    color: var(--slate, #434455);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
